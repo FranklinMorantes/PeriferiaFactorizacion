@@ -18,7 +18,7 @@ public class AsignacionVigencia_Page extends AsignacionVigencia_Maps {
 		super(driver);
 	}
 
-
+	//LLAMAR URL
 	@Step("Ingreso a la pagina http://120.11.10.50/FlGuiaUnicaTest/home")
 	public AsignacionVigencia_Page Periferia(String url) {
 		driver.get(url);
