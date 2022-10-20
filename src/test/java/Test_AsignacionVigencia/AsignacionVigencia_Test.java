@@ -50,7 +50,7 @@ public class AsignacionVigencia_Test extends BaseTest {
 	
 	@Severity(SeverityLevel.NORMAL)
     @Story("Modulo Inicio Sesion")
-	@Description("Caso de prueba para inicio de sesion")
+	@Description("CP01-CP02	")
 	@Test(priority=0)
 	public void inicioDeSesion_Test() {
 		String nameTest = Thread.currentThread().getStackTrace()[1].getMethodName();
@@ -69,10 +69,10 @@ public class AsignacionVigencia_Test extends BaseTest {
 	}
 	
 	@Severity(SeverityLevel.NORMAL)
-    @Story("Guardar en modulo asignacion vigencia CP04")
+    @Story("Acceder en modulo asignacion vigencia CP03")
 	@Description("Caso de prueba para inicio de sesion")
 	@Test(priority=1)
-	public void GuardarMetodoVigencia() {
+	public void AccederModuloVigencia() {
 		String nameTest = Thread.currentThread().getStackTrace()[1].getMethodName();
 		File folderPath = BasePage.createFolder(nameTest,
 												getProperties().getProperty("path"));
@@ -88,6 +88,26 @@ public class AsignacionVigencia_Test extends BaseTest {
 		ReportePDF.closeTemplate();
 	}
 	
+	
+	@Severity(SeverityLevel.NORMAL)
+    @Story("Seleccion de fechas en modulo asignacion vigencia CP09,CP10,CP11,CP12")
+	@Description("Caso de prueba para inicio de sesion")
+	@Test(priority=2)
+	public void SeleccionarVigencia() {
+		String nameTest = Thread.currentThread().getStackTrace()[1].getMethodName();
+		File folderPath = BasePage.createFolder(nameTest,
+												getProperties().getProperty("path"));
+		loginRecursion(folderPath,
+					   nameTest,
+				   	   getProperties().getProperty("usuario"),
+				   	   getProperties().getProperty("contrasenna"));
+		asignacion.Modulo_Vigencia(folderPath, nameTest, nameTest).SeleccionarFecha(folderPath, nameTest, nameTest, getProperties().getProperty("Lista"));
+		
+		
+		//login.salir(folderPath);
+		MyScreenRecorder.StopRecording();
+		ReportePDF.closeTemplate();
+	}
 
 	
 
