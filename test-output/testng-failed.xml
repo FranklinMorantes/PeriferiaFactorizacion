@@ -7,7 +7,7 @@
         <methods>
           <include name="tearDown"/>
           <include name="inicializar"/>
-          <include name="inicioDeSesion_Test"/>
+          <include name="SeleccionarVigencia"/>
         </methods>
       </class> <!-- Test_AsignacionVigencia.AsignacionVigencia_Test -->
     </classes>

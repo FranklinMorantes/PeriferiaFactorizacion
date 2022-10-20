@@ -214,7 +214,7 @@ public class BasePage {
 	}
 
 	// METODO PARA SELECCIONAR UN ELEMENTO DE UNA LISTA
-	public void selectElementList(By elementLocation, String valorLista, File folderPath, String steps) {
+	public void selectElementList(By elementLocation, String valorLista, File folderPath, String steps, int tiempo) {
 		try {
 			visibilityOfElementLocated(elementLocation);
 			Select lista = new Select(driver.findElement(elementLocation));
@@ -226,6 +226,7 @@ public class BasePage {
 			ReportePDF.closeTemplate(errorLocalizador);
 			error();
 		}
+		time(tiempo);
 	}
 
 	// METODO PARA BUSCAR LOS ELEMENTOS DE UNA GRILLA

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-19T12:14:18 COT" name="Default suite" finished-at="2022-10-19T12:15:15 COT" duration-ms="56982">
+  <suite started-at="2022-10-19T21:28:28 COT" name="Default suite" finished-at="2022-10-19T21:29:33 COT" duration-ms="64729">
     <groups>
     </groups>
-    <test started-at="2022-10-19T12:14:18 COT" name="Default test" finished-at="2022-10-19T12:15:15 COT" duration-ms="56982">
+    <test started-at="2022-10-19T21:28:28 COT" name="Default test" finished-at="2022-10-19T21:29:33 COT" duration-ms="64729">
       <class name="Test_AsignacionVigencia.AsignacionVigencia_Test">
-        <test-method is-config="true" signature="inicializar(java.lang.String)[pri:0, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@2eae8e6e]" started-at="2022-10-19T12:14:18 COT" name="inicializar" finished-at="2022-10-19T12:14:22 COT" duration-ms="3798" status="PASS">
+        <test-method is-config="true" signature="inicializar(java.lang.String)[pri:0, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@470734c3]" started-at="2022-10-19T21:28:28 COT" name="inicializar" finished-at="2022-10-19T21:28:30 COT" duration-ms="1718" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inicializar -->
-        <test-method signature="inicioDeSesion_Test()[pri:0, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@2eae8e6e]" started-at="2022-10-19T12:14:22 COT" name="inicioDeSesion_Test" finished-at="2022-10-19T12:15:14 COT" duration-ms="52718" status="PASS">
+        <test-method signature="SeleccionarVigencia()[pri:2, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@470734c3]" started-at="2022-10-19T21:28:30 COT" name="SeleccionarVigencia" finished-at="2022-10-19T21:29:33 COT" duration-ms="62701" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- inicioDeSesion_Test -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@2eae8e6e]" started-at="2022-10-19T12:15:14 COT" name="tearDown" finished-at="2022-10-19T12:15:15 COT" duration-ms="368" status="PASS">
+        </test-method> <!-- SeleccionarVigencia -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Test_AsignacionVigencia.AsignacionVigencia_Test@470734c3]" started-at="2022-10-19T21:29:33 COT" name="tearDown" finished-at="2022-10-19T21:29:33 COT" duration-ms="186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -23,6 +23,10 @@ public class AsignacionVigencia_Maps extends BasePage {
 	protected By Metodo=By.xpath("//*[@class='appmagic-label-text']"); 
 	protected By Menu=By.xpath("/html/body/div[1]/div/div/div/div[3]/div/div/div[36]/div/div/div/div"); 
 	protected By Frame2=By.xpath("/html/body/div[3]/iframe"); 
+	protected By Frame3=By.xpath("/html[1]/body[1]/div[3]/iframe[1]"); 
+	
+	
+	
 	protected By Descarga=By.xpath("/html/body/div[1]/div/div/div/div[3]/div/div/div[29]/div/div/div/div/button/div/div"); 
 	
 	
@@ -44,6 +48,19 @@ public class AsignacionVigencia_Maps extends BasePage {
 	protected By ModAsignacion3=By.xpath("//*[@id=\"publishedCanvas\"]/div/div[2]/div/div/div[2]/div/div"); 
 	protected By ModAsignacion4=By.xpath("//*[@id=\"publishedCanvas\"]/div/div[2]/div/div/div[2]/div/div/div"); 
 	protected By ModAsignacion5=By.xpath("//*[@id=\"publishedCanvas\"]/div/div[2]/div/div/div[2]/div/div/div/div"); 
+	
+	
+	//SELECCIONAR FECHA MODULO VIGENCIA
+	
+	protected By FechaDesde=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[1]/div/div[12]/div/div/div/div/div");
+	protected By Fecha1=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[3]/div/table/tbody/tr[3]/td[1]");
+	protected By FechaHasta=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[1]/div/div[10]/div/div/div/div/div");
+	protected By Fecha2=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[3]/div/table/tbody/tr[3]/td[7]");
+	protected By AportesLinea=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[1]/div/div[11]/div/div/div/div/div/div[2]");
+	protected By AportesLinea1=By.xpath("/html/body/div[1]/div/div/div/div[3]/div[1]/div/div[11]/div/div/div/div/div");
+	
+	
+	
 	
 	
 
